@@ -1,0 +1,141 @@
+$darkGrey: #4A4A4A;
+$maroon: #B71414;
+
+html{
+    padding: 0px;
+}
+
+.grey{
+    color: $darkGrey;
+}
+
+.maroon{
+    color: $maroon;
+}
+.spacer{
+    margin-top: 20px;
+}
+.small-spacer{
+    margin-top: 10px;
+}
+.small-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+
+//profile pane
+.container-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pane{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #B71414;
+}
+
+.profile-image{
+    height: 117px;
+    width: 94px;
+    border-radius: 60%;
+}
+
+.name-text{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.stack-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+    width: 70%;
+}
+
+#contact-row{
+    justify-content: center;
+}
+
+.w-spacer{
+    margin-left: 28px;
+}
+
+//Content
+
+.content{
+    margin-left: 30%;
+    padding: 20px;
+    width: 40%;
+}
+
+.section-title{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: $maroon;
+}
+
+.info-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+    padding: 20px;
+    width: 70%;
+}
+
+.fa-map-marker-alt, .fa-calendar, .fa-user{
+    margin-right: 5px;
+}
+
+.card-title{
+    font-size: 18px;
+    color: $darkGrey;
+    font-family: sans-serif;
+}
+
+.content-small-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: $darkGrey;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+}
+
+.card-img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .container-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-pane{
+        width: 100%;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .content{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .info-card{
+        width: 90%;
+    }
+}

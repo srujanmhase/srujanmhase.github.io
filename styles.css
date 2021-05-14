@@ -1,0 +1,173 @@
+html {
+  padding: 0px;
+}
+
+.grey {
+  color: #4A4A4A;
+}
+
+.maroon {
+  color: #B71414;
+}
+
+.spacer {
+  margin-top: 20px;
+}
+
+.small-spacer {
+  margin-top: 10px;
+}
+
+.small-text {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profile-pane {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #B71414;
+}
+
+.profile-image {
+  height: 117px;
+  width: 94px;
+  border-radius: 60%;
+}
+
+.name-text {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.stack-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: normal;
+      align-content: normal;
+  width: 70%;
+}
+
+#contact-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.w-spacer {
+  margin-left: 28px;
+}
+
+.content {
+  margin-left: 30%;
+  padding: 20px;
+  width: 40%;
+}
+
+.section-title {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #B71414;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px lightgray;
+          box-shadow: 0px 0px 10px lightgray;
+  padding: 20px;
+  width: 70%;
+}
+
+.fa-map-marker-alt, .fa-calendar, .fa-user {
+  margin-right: 5px;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #4A4A4A;
+  font-family: sans-serif;
+}
+
+.content-small-text {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #4A4A4A;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-img-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .container-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .profile-pane {
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .content {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .info-card {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
